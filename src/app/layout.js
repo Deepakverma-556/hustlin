@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={``}
+        className={`bg-[url(/assets/images/webp/bg-image.webp)]`}
       >
         <Header/>
         {children}

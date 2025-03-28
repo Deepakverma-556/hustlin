@@ -16,3 +16,9 @@
   --breakpoint-md: 770px;
   --color-customYellow:rgba(255, 214, 0, 1);
 }
+
+.icon:hover svg path{
+  fill: rgba(85, 172, 238, 1);
+  transition: all 300ms linear;
+
+}
