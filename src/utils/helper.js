@@ -195,3 +195,7 @@ export const LATEST_TWEETS_LIST = [
         description: "Diam tellus arcu, amet ornare nulla ut scelerisque et. Cum porta ultrices quam in."
     },
 ]
+
+export const MINTING_LIST = [
+    "Etiam egat","Tristique.","Aliquet ac.","Tincidunt."
+]
