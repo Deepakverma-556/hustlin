@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
+* {
+  font-family: "Noto Serif", serif;
+}
+
+@font-face {
+  font-family: "Modern";
+  src: url("/assets/fonts/modernofbcomp-bold.otf") format("openType");
+}
+
 @theme {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-modern: "Modern", "sans-serif";
+  --breakpoint-lg: 1025px;
+  --breakpoint-md: 770px;
+  --color-customYellow:rgba(255, 214, 0, 1);
 }

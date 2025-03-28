@@ -1,3 +1,4 @@
+import Header from "@/components/common/Header";
 import "./globals.css";
 
 export const metadata = {
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
       <body
         className={``}
       >
+        <Header/>
         {children}
       </body>
     </html>
