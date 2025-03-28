@@ -10,8 +10,14 @@
   src: url("/assets/fonts/modernofbcomp-bold.otf") format("openType");
 }
 
+@font-face {
+  font-family: "Perpetua";
+  src: url("/assets/fonts/PERTIBD.TTF") format("trueType");
+}
+
 @theme {
   --font-modern: "Modern", "sans-serif";
+  --font-perpetua: "Perpetua", "sans-serif";
   --breakpoint-lg: 1025px;
   --breakpoint-md: 770px;
   --color-customYellow:rgba(255, 214, 0, 1);

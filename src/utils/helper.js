@@ -172,3 +172,26 @@ export const HEADER_LINK_LIST = [
         link:"#faqs"
     },
 ]
+
+export const LATEST_TWEETS_LIST = [
+    {
+        title: "Etiam eget",
+        date: "23/03/2022",
+        description:"Diam tellus arcu, amet ornare nulla ut scelerisque et. Cum porta ultrices quam in."
+    },
+    {
+        title: "Venenatis.",
+        date: "22/03/2022",
+        description:"Tortor dolor ultrices mauris aliquam feugiat amet ultrices facilisi. Venenatis."
+    },
+    {
+        title: "Quis vulputate.",
+        date: "20/03/2022",
+        description:"Vestibulum at gravida amet ullamcorper a ipsum laoreet tortor. Et tortor vel arcu ac."
+    },
+    {
+        title: "Etiam eget",
+        date: "23/03/2022",
+        description: "Diam tellus arcu, amet ornare nulla ut scelerisque et. Cum porta ultrices quam in."
+    },
+]
