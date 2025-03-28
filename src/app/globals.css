@@ -19,7 +19,7 @@
 }
 
 .icon:hover svg path{
-  fill: rgba(85, 172, 238, 1);
+  fill: #55acee;
   transition: all 300ms linear;
 
 }
