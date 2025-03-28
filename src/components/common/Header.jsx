@@ -28,7 +28,7 @@ const Header = () => {
             <div className='border-t-2 border-b-2 border-black'>
                 <ul className='mx-auto max-w-max flex'>
                     {HEADER_LINK_LIST.map((obj, i) => (
-                        <li key={i} className={`border-l-2 px-6 py-[5.4px] max-sm:px-2 max-sm:py-1 max-sm:text-sm border-black ${i===4?"border-r-2 border-black":""}`}><Link href={obj.link}>{obj.title}</Link></li>
+                        <li key={i} className={`border-l-2 px-6 py-[5.4px] max-sm:px-2 max-sm:py-1 max-sm:text-sm border-black ${i===4?"border-r-2 border-black":""}`}><Link href={obj.link} className='transition-all duration-300 hover:text-sky'>{obj.title}</Link></li>
                     ))}
                 </ul>
             </div>
