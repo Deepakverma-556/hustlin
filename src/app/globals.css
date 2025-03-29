@@ -27,5 +27,26 @@
 .icon:hover svg path{
   fill: #55acee;
   transition: all 300ms linear;
+}
 
+.roadmap-line::after {
+  position: absolute;
+  content: "";
+  bottom: 1px;
+  width: 10px;
+  height: 2px;
+  left: 0;
+  background-color: #000000;
+  transform: rotate(-45deg) translateY(-1px);
+}
+
+.roadmap-line::before {
+  position: absolute;
+  content: "";
+  bottom: 1px;
+  width: 10px;
+  height: 2px;
+  left: -8px;
+  background-color: #000000;
+  transform: rotate(45deg) translateY(-1px);
 }
