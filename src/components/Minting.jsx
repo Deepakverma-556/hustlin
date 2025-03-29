@@ -47,7 +47,7 @@ const Minting = () => {
                 <Description text={"Most of the Hustlin’ Hardos first experienced NFTs via other successful projects like NBA TopShot, where revealing your newly minted item invoked the same emotions as opening up that first pack of baseball cards. NFTs have allowed us to enjoy those feelings once again while also empowering communities through shared ownership. The space has seen incredible growth over the past year, and it is our belief that we are in the very early innings of the paradigm shift that will be powered by web3."} />
                 <div className='border-2 flex items-center max-w-max mt-[15px] mb-[35px] max-sm:mb-7'>
                   <button onClick={() => setincrease(increase - 1)} className='font-semibold text-4xl max-md:text-3xl max-md:px-5 max-sm:text-2xl px-6 cursor-pointer hover:text-sky transition-all duration-300'>-</button>
-                  <p className='font-semibold text-4xl max-md:text-3xl max-md:px-5 max-sm:text-2xl border-x-2 px-6 py-1'>{increase}</p>
+                  <p className='font-semibold text-4xl max-md:text-3xl max-md:px-5 max-sm:text-2xl border-x-2 px-6 py-1 min-w-[112.01px] text-center max-sm:min-w-24'>{increase}</p>
                   <button onClick={() => setincrease(increase + 1)} className='font-semibold text-4xl max-md:text-3xl max-md:px-5 max-sm:text-2xl px-6 cursor-pointer hover:text-sky transition-all duration-300'>+</button>
                 </div>
                 <button className='bg-yellow-400 text-sm max-w-max font-semibold leading-[100%] border-2 border-black px-[14.76px] py-[12.9px] max-sm:px-3 max-sm:py-2 cursor-pointer transition-all duration-300 hover:bg-black hover:text-white '>MINT NOW</button>
