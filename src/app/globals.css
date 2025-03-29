@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
-* {
-  font-family: "Noto Serif", serif;
-}
-
 @font-face {
   font-family: "Modern";
   src: url("/assets/fonts/modernofbcomp-bold.otf") format("openType");
@@ -20,13 +16,23 @@
   --font-perpetua: "Perpetua", "sans-serif";
   --breakpoint-lg: 1025px;
   --breakpoint-md: 770px;
-  --color-customYellow:rgba(255, 214, 0, 1);
-  --color-sky:rgba(85, 172, 238, 1);
-  --color-gray:rgba(112, 103, 95, 1);
-  --color-lightGray:rgba(165, 154, 144, 1);
+  --color-customYellow: rgba(255, 214, 0, 1);
+  --color-sky: rgba(85, 172, 238, 1);
+  --color-gray: rgba(112, 103, 95, 1);
+  --color-lightGray: rgba(165, 154, 144, 1);
 }
 
-.icon:hover svg path{
+* {
+  font-family: "Noto Serif", serif;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+
+.icon:hover svg path {
   fill: #55acee;
   transition: all 300ms linear;
 }

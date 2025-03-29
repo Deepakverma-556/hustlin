@@ -12,7 +12,7 @@ import Link from 'next/link'
 const LatestTweets = () => {
   return (
     <>
-      <div className='max-w-[1172px] mx-auto px-4 pt-[89px] pb-[90px] max-md:pb-10 max-sm:pb-6 max-md:pt-16 max-sm:pt-12 justify-between items-center flex'>
+      <div id='about' className='max-w-[1172px] mx-auto px-4 pt-[89px] pb-[90px] max-md:pb-10 max-sm:pb-6 max-md:pt-16 max-sm:pt-12 justify-between items-center flex'>
         <h2 className='font-light text-[80px] max-lg:text-6xl max-md:text-5xl max-sm:text-3xl leading-[104%] !font-perpetua'>LATEST TWEETS</h2>
         <div className='flex items-center gap-[55px] max-md:gap-7 max-sm:gap-3'>
           <button className='prev cursor-pointer group'><LeftArrow myClass={'group-hover:stroke-sky transition-all duration-300'} /></button>

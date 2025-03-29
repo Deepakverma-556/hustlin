@@ -35,8 +35,8 @@ const Minting = () => {
     return () => clearInterval(interval);
   }, [timeRemaining]);
   return (
-    <div>
-      <div className='max-w-[1172px] mx-auto px-4 py-[88px] max-md:pt-16 max-md:pb-10 max-sm:pb-6 max-sm:pt-12'>
+    <>
+      <div id='minting' className='max-w-[1172px] mx-auto px-4 py-[88px] max-md:pt-16 max-md:pb-10 max-sm:pb-6 max-sm:pt-12'>
         <Heading text={'Minting'} />
       </div>
       <div className='border-y-2'>
@@ -71,7 +71,7 @@ const Minting = () => {
           ))}
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

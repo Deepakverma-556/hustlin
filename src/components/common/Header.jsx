@@ -5,7 +5,7 @@ import { HEADER_LINK_LIST, HEADER_SOCIAL_ICON_LIST } from '@/utils/helper'
 
 const Header = () => {
     return (
-        <div>
+        <>
             <MyMarquee />
             <div className='max-w-[1172px] mx-auto px-4 sm:flex justify-end pt-2 pb-[15px]'>
                 <div className='max-w-[658px] w-full flex items-center justify-between'>
@@ -32,7 +32,7 @@ const Header = () => {
                     ))}
                 </ul>
             </div>
-        </div>
+        </>
     )
 }
 

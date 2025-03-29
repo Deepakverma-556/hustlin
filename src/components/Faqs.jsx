@@ -10,7 +10,7 @@ const Faqs = () => {
     setOpen(open === index ? null : index);
   };
   return (
-    <div id="faq">
+    <div id="faqs">
       <Heading
         myClass="pb-[89px] max-lg:pb-16 max-md:pb-10 max-sm:pb-6 max-xl:px-4 max-w-[1140px] mx-auto pt-[88px] max-md:pt-16 max-sm:pt-12"
         text="Faqs"
