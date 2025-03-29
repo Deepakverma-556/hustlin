@@ -23,7 +23,7 @@ const Roadmap = () => {
                 key={i}
                 className={`relative ${i === 0 || i === 2 || i === 4 || i === 6
                     ? "max-w-[599px] max-xl:max-w-[468px] pl-5 ml-auto after:absolute after:content='' after:top-0 after:bg-[url('/assets/images/webp/roadmap-icon.webp')] after:bg-cover after:bg-center after:bg-no-repeat after:w-[59px] after:h-[59px] after:left-[-13%] max-xl:after:left-[-13%] max-lg:after:left-[-14%] max-lg:mr-auto max-lg:ml-0 max-lg:after:w-11 max-lg:after:h-11 max-md:after:!left-[-14%] max-[424px]:after:!left-[-28.5%] max-xl:pl-2 max-lg:!pl-0"
-                    : "max-w-[564px] max-xl:max-w-[428px] mr-auto roadmap-left-content -mt-4 after:absolute after:content='' after:top-0 after:bg-[url('/assets/images/webp/roadmap-icon.webp')] after:bg-cover after:bg-center after:bg-no-repeat after:w-[59px] after:h-[59px] after:right-[-22.5%] max-xl:after:right-[-12%] max-lg:max-w-[468px] max-lg:mt-0 max-lg:after:left-[-14%] max-lg:after:w-11 max-lg:after:h-11 max-md:after:left-[-15.5%] max-[424px]:after:!left-[-28.5%]"
+                    : "max-w-[564px] max-xl:max-w-[428px] mr-auto -mt-4 after:absolute after:content='' after:top-0 after:bg-[url('/assets/images/webp/roadmap-icon.webp')] after:bg-cover after:bg-center after:bg-no-repeat after:w-[59px] after:h-[59px] after:right-[-22.5%] max-xl:after:right-[-12%] max-lg:max-w-[468px] max-lg:mt-0 max-lg:after:left-[-14%] max-lg:after:w-11 max-lg:after:h-11 max-md:after:left-[-15.5%] max-[424px]:after:!left-[-28.5%]"
                   } ${i === 1
                     ? "-mt-20 max-lg:mt-0"
                     : i === 3

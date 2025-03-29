@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee"
 const MyMarquee = () => {
     return (
         <div className='bg-black py-[14px]'>
-            <Marquee>
+            <Marquee pauseOnHover>
                 <div className='flex gap-[62px]'>
                     {MARQUEE_LIST.map((obj, i) => (
                         <div key={i} className={`flex items-center gap-[7px]`}>
