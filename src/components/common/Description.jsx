@@ -2,7 +2,7 @@ import React from 'react'
 
 const Description = ({myClass,text}) => {
   return (
-    <p className={`${myClass}`}>{text}</p>
+    <p className={`${myClass} max-sm:text-sm`}>{text}</p>
   )
 }
 

@@ -1,4 +1,5 @@
 import BreakingNews from "@/components/BreakingNews";
+import Faqs from "@/components/Faqs";
 import Hero from "@/components/Hero";
 import LatestTweets from "@/components/LatestTweets";
 import Minting from "@/components/Minting";
@@ -13,7 +14,8 @@ export default function Home() {
       <LatestTweets />
       <Minting />
       <Roadmap />
-      <Team/>
+      <Team />
+      <Faqs/>
     </>
   );
 }

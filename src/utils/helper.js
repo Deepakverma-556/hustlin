@@ -1,4 +1,4 @@
-const { Discord, Twitter, Instagram, Mlogo, Boat } = require("./icons")
+const { Discord, Twitter, Instagram, Medium, OpenSea } = require("./icons")
 
 export const MARQUEE_LIST = [
     {
@@ -141,12 +141,12 @@ export const HEADER_SOCIAL_ICON_LIST = [
         link:"https://instagram.com/"
     },
     {
-        icon: <Mlogo />,
-        link:"https://discord.com/"
+        icon: <Medium />,
+        link:"https://medium.com/"
     },
     {
-        icon: <Boat />,
-        link:"https://boat.com/"
+        icon: <OpenSea />,
+        link:"https://opensea.io/"
     },
 ]
 
@@ -248,4 +248,29 @@ export const ROADMAP_LIST = [
         title: "Swapping Individual Attributes",
         description: "Building a wardrobe app where you can secondary sales",
     },
+];
+
+export const TEAM_LIST = [
+    {
+        title: "Executive Hardo",
+        description:"Crypto startup executive, former VC Investor (US$ 1B+ AuM), former MBB Consultant,"
+    },
+    {
+        title: "Johnny Banjo ",
+        description:"The Hustlin’ Hardos have arrived to the metaverse! 9,999 Hardos have taken over. Lorem Ipsum is simply dummy text of the printing industry."
+    },
+    {
+        title: "Executive Hardo",
+        description:"Crypto startup executive, former VC Investor (US$ 1B+ AuM), former MBB Consultant,"
+    },
+]
+
+export const FAQ_LIST = [
+    "What is an NFT?",
+    "How do I get an NFT?",
+    "How much is a Hustlin' Hardo NFT?",
+    "Where can I mint a Hustlin' Hardos NFT?",
+    "How do I mint a Hustlin' Hardo NFT?",
+    "How many Hustlin' Hardos NFTs will there be?",
+    "What is the utility and functionality of a Hustlin' Hardo NFT?",
 ];

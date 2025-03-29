@@ -8,7 +8,7 @@ const Roadmap = () => {
   return (
     <div
       id="roadmap"
-      className="pb-[88px] max-lg:pb-16 max-md:pb-10 max-sm:pb-6 pt-[88px] max-md:pt-16 max-sm:pt-12"
+      className="pb-[88px] max-md:pb-16 max-sm:pb-12 pt-[88px] max-md:pt-16 max-sm:pt-12"
     >
       <Heading
         myClass="pb-[89px] max-lg:pb-16 max-md:pb-10 max-sm:pb-6 max-lg:px-4 max-w-[1140px] mx-auto max-xl:px-4"

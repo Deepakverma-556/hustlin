@@ -22,6 +22,8 @@
   --breakpoint-md: 770px;
   --color-customYellow:rgba(255, 214, 0, 1);
   --color-sky:rgba(85, 172, 238, 1);
+  --color-gray:rgba(112, 103, 95, 1);
+  --color-lightGray:rgba(165, 154, 144, 1);
 }
 
 .icon:hover svg path{
